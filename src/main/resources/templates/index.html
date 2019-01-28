@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>
+you are on index.html
+</h1>
+<form action="/greeting">
+    <input type="" name="imya" placeholder="imya">
+    <input type="submit" name="" placeholder="">
+</form>
+<p th:text="${x}"/>
+<form action="/greeting" method="post">
+    <select name="idOfPerson" id="">
+        <option value="1">vasya</option>
+        <option value="2">anya</option>
+        <option value="3">anya1</option>
+        <option value="4">poroh</option>
+
+    </select>
+    <input type="submit" name="" placeholder="">
+</form>
+
+</body>
+</html>
